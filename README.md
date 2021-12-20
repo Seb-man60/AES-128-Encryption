@@ -4,11 +4,10 @@ Programming language : C
 > Prerequisites :
 aes-128.h file
 
-- Tag ShiftRow :
-ShiftRow :
+## ShiftRow
 
 Firstly, let's understand with what we work. We have a table of 16 hexadecimal character implemented as it follow :
-![alt text](https://github.com/sebman60/AES-128-Encryption/img/ShiftRow1.png?raw=true)
+![ShiftRow1](https://github.com/Seb-man60/AES-128-Encryption/blob/main/img/ShiftRow1.png?raw=true)
 
 We want to get get cyclic rotations from the right to the left of our characters :
 - First line : No rotation
@@ -17,12 +16,12 @@ We want to get get cyclic rotations from the right to the left of our characters
 - Fourth line : Three rotation
 
 See how it is looking with an example (Expected + Second line) :
-![alt text](https://github.com/sebman60/AES-128-Encryption/img/ShiftRow2.png?raw=true)
+![ShiftRow2](https://github.com/Seb-man60/AES-128-Encryption/blob/main/img/ShiftRow2.png?raw=true)
 
 For the third line, as you guessed, you have to do the whole process one more time.
 Two more time for the fourth line.
 
 
 > References :
-Wikipedia :
+- Wikipedia :
 https://en.wikipedia.org/wiki/Advanced_Encryption_Standard
