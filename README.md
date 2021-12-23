@@ -25,3 +25,8 @@ Two more time for the fourth line.
 > References :
 - Wikipedia :
 https://en.wikipedia.org/wiki/Advanced_Encryption_Standard
+https://en.wikipedia.org/wiki/Rijndael_MixColumns
+
+- GitHub :
+https://github.com/matt-wu/AES/blob/master/rijndael.c
+https://github.com/amanske/aes-128/blob/master/aes.cpp
